@@ -98,14 +98,14 @@ export default function Home() {
   const profile = {
     fullName: "Diyorbek Abdusattorov",
     shortName: "Diyorbek",
-    title: "Data Analyst • Data Engineer • AI Engineer (in progress)",
+    title: "Data Analyst • Data Engineer • (AI Engineer in progress)",
     tagline:
-      "I build dashboards and data pipelines, and I’m diving deeper into AI engineering to deliver reliable, business-ready solutions.",
+      "I am an analyst that pushes business forward with my analytical and engineering skills and tools, and I’m diving deeper into AI engineering to deliver reliable, business-ready solutions.",
     email: "abdusattorovdiyor01@gmail.com",
     socials: {
-      linkedin: "https://www.linkedin.com/in/diyorbek-abdusattorov",
-      github: "https://github.com/abdusattorovdiyor01",
-      telegram: "https://t.me/abdusattorovdiyor01",
+      linkedin: "www.linkedin.com/in/diyorbek-abdusattorov-ba8b68373",
+      github: "https://github.com/Diyor-fdv",
+      telegram: "https://t.me/Dnlyst",
     },
   } as const;
 
@@ -416,10 +416,10 @@ export default function Home() {
               </h3>
               <div className="space-y-4">
                 {[
-                  { name: "Pandas", level: 92 },
+                  { name: "PostgreSQL / Azure SQL", level: 99 },
                   { name: "Matplotlib", level: 84 },
                   { name: "Plotly", level: 86 },
-                  { name: "PostgreSQL / Azure SQL", level: 88 },
+                  { name: "Pandas", level: 92 },
                 ].map((skill) => (
                   <div key={skill.name}>
                     <div className="flex justify-between mb-2">
@@ -453,21 +453,21 @@ export default function Home() {
             {[
               {
                 role: "Data Analyst",
-                company: "Current Role",
+                company: "Centrum Air (Full-time)",
                 period: "Present",
                 description:
-                  "Build and maintain Power BI dashboards, perform ad‑hoc analysis, and translate business questions into measurable KPIs. Partner with stakeholders to deliver clear, actionable insights.",
+                  "Perform ad‑hoc analysis, and translate business questions into measurable KPIs. Partner with stakeholders to deliver clear, actionable insights.",
               },
               {
                 role: "Data Engineer (responsibilities)",
-                company: "Ongoing",
-                period: "2025 - 2026",
+                company: "Centrum-Air",
+                period: "Present",
                 description:
                   "Develop ETL/ELT workflows in Python and SQL, integrate data via APIs, and work with PostgreSQL / Azure SQL to support reliable analytics and reporting workloads.",
               },
               {
                 role: "AI Engineering (learning & delivery)",
-                company: "Projects",
+                company: "Centrum Air",
                 period: "2026",
                 description:
                   "Built AI chatbots using Azure AI and Copilot Studio, focusing on practical automation, safe responses, and business-ready user experience.",
@@ -503,13 +503,19 @@ export default function Home() {
                 title: "Azure AI Chatbot (Copilot Studio)",
                 description:
                   "Designed and delivered a business-ready chatbot using Azure AI and Copilot Studio, focusing on reliable answers, guardrails, and a clean UX.",
-                tags: ["Azure AI", "Copilot Studio", "Power Platform"],
+                tags: ["Azure AI", "Copilot Studio", "Power Platform","APIs"],
+              },
+                            {
+                title: "Integration and Engineering",
+                description:
+                  "Built ETL/ELT pipelines integrating various data sources (APIs, databases) to support analytics and reporting workloads, ensuring data reliability and performance.",
+                tags: ["Airflow", "APIs", "SQL","APIs"],
               },
               {
                 title: "Executive BI Dashboard",
                 description:
                   "Built a KPI-focused Power BI dashboard with consistent metrics definitions, drilldowns, and stakeholder-friendly storytelling.",
-                tags: ["Power BI", "SQL", "DAX"],
+                tags: ["Power BI", "SQL", "DAX",],
               },
               {
                 title: "Streamlit Analytics App",
@@ -518,10 +524,10 @@ export default function Home() {
                 tags: ["Streamlit", "Pandas", "Plotly"],
               },
               {
-                title: "Monitoring Dashboards",
+                title: "Monitoring Dashboards and Analytics",
                 description:
                   "Set up Grafana dashboards to track operational metrics and data pipeline health, enabling faster detection and troubleshooting.",
-                tags: ["Grafana", "APIs", "SQL"],
+                tags: ["Grafana","SQL", "Superset"],
               },
             ].map((project, idx) => (
               <Card
@@ -574,14 +580,9 @@ export default function Home() {
               </h3>
               {[
                 {
-                  degree: "Master of Science in Data Science",
-                  school: "University of Technology",
-                  year: "2018",
-                },
-                {
                   degree: "Bachelor of Science in Computer Science",
-                  school: "State University",
-                  year: "2016",
+                  school: "Russian University of Technology MISIS",
+                  year: "2025",
                 },
               ].map((edu, idx) => (
                 <Card
@@ -603,19 +604,14 @@ export default function Home() {
               </h3>
               {[
                 {
-                  cert: "AWS Certified Data Analytics",
-                  issuer: "Amazon Web Services",
-                  year: "2023",
-                },
-                {
-                  cert: "Google Cloud Professional Data Engineer",
-                  issuer: "Google Cloud",
-                  year: "2022",
+                  cert: "Epam Data Analytics Professional Certificate",
+                  issuer: "Epam Systems",
+                  year: "2025",
                 },
                 {
                   cert: "Advanced Machine Learning Specialization",
                   issuer: "Coursera",
-                  year: "2021",
+                  year: "progress",
                 },
               ].map((cert, idx) => (
                 <Card
