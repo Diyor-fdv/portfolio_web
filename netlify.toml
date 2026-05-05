@@ -1,0 +1,10 @@
+[build]
+  command = "corepack enable && pnpm install --frozen-lockfile && pnpm run build"
+  publish = "dist/public"
+
+# SPA routing support (so refresh on /404 etc. works)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
