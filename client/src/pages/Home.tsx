@@ -524,10 +524,10 @@ export default function Home() {
                 tags: ["Streamlit", "Pandas", "Plotly"],
               },
               {
-                title: "Monitoring Dashboards and Analytics",
+                title: "Monitoring Executive BI Dashboard",
                 description:
-                  "Set up Grafana dashboards to track operational metrics and data pipeline health, enabling faster detection and troubleshooting.",
-                tags: ["Grafana","SQL", "Superset"],
+                  "Built monitoring dashboards and an executive BI dashboard page, combining Grafana operational metrics with Power BI stakeholder reporting for faster detection and decision-making.",
+                tags: ["Grafana", "Power BI", "SQL", "Superset"],
               },
             ].map((project, idx) => (
               <Card
@@ -606,6 +606,11 @@ export default function Home() {
                 {
                   cert: "Epam Data Analytics Professional Certificate",
                   issuer: "Epam Systems",
+                  year: "2025",
+                },
+                {
+                  cert: "IELTS 7 (IDP)",
+                  issuer: "IDP Education",
                   year: "2025",
                 },
                 {
